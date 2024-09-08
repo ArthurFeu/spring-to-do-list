@@ -1,0 +1,11 @@
+### Create a New Task
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+limpar a casa
+
+### List Every Task
+GET http://localhost:8080/tasks
+
+### Remove Every Task
+DELETE http://localhost:8080/tasks
